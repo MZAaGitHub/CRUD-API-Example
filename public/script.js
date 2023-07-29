@@ -3,7 +3,8 @@
 //const apiUrl = 'http://localhost:3001/api/users';
 
 // const apiUrl = 'https://javascript-test.onrender.com/api/users';
-onst apiUrl = 'http://localhost:3001/api/users';
+ const apiUrl = 'https://crud-api-example.vercel.app/api/users';
+//const apiUrl = 'http://localhost:3001/api/users';
 
 // Function สำหรับเรียก API และแสดงผลข้อมูลในหน้าเว็บ
 function getUsers() {
