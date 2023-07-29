@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CRUD API Example</title>
+</head>
+
+<body>
+    <h1>Users</h1>
+    <ul id="userList">
+        <!-- รายชื่อผู้ใช้งานจะแสดงที่นี่ -->
+    </ul>
+    <hr>
+    <h2>Create New User</h2>
+    <form id="createUserForm">
+        <input type="text" id="name" placeholder="Enter name" required>
+        <button type="submit">Create User</button>
+    </form>
+    <hr>
+    <h2>Update User</h2>
+    <form id="updateUserForm">
+        <input type="number" id="userId" placeholder="Enter user ID" required>
+        <input type="text" id="updatedName" placeholder="Enter updated name" required>
+        <button type="submit">Update User</button>
+    </form>
+    <hr>
+    <h2>Delete User</h2>
+    <form id="deleteUserForm">
+        <input type="number" id="deleteUserId" placeholder="Enter user ID" required>
+        <button type="submit">Delete User</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
